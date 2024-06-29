@@ -109,7 +109,7 @@
     width: 50vw;
     height: 50vh;
     background-color: rgba(35, 35, 46, 0.205);
-    
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,9 +175,10 @@
     font-size: 3rem;
   }
   .about-text p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     text-align: center;
-    margin: 0 auto;
+    padding: 0 5px;
+    margin: auto;
   }
   .main-text h2 {
     font-size: 3rem;
@@ -211,8 +212,8 @@
   }
 
   .form-contato form {
-    padding: 0 10px;
-    margin: 0 auto;
+    padding: 0 15px;
+    margin-left: 7px;
   }
   .form-contato .enviar{
     padding-top: 20px;
