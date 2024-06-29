@@ -177,6 +177,7 @@
   .about-text p {
     font-size: 1rem;
     text-align: center;
+    margin: 0 auto;
   }
   .main-text h2 {
     font-size: 3rem;
@@ -211,6 +212,7 @@
 
   .form-contato form {
     padding: 0 10px;
+    margin: 0 auto;
   }
   .form-contato .enviar{
     padding-top: 20px;
