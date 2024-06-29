@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifólio</title>
+  <!-- estilos -->
+  <link rel="stylesheet" href="./estilos/estilos.css">
+  <link rel="stylesheet" href="./estilos/mediaquery.css">
+  <!-- fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+  <!-- icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- toast -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+
+  <header class="header">
+    <a href="#" class="logo">Portfólio</a>
+    <div class="mobile-menu">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+    <nav class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">Sobre</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section class="home" id="home">
+    <div class="home-container">
+      <div class="image-container"><img src="./imagens/foto.png" alt=""></div>
+      <div class="descricao">
+        <h3 class="ola">Olá, Bem-vindo ao meu portfólio!</h3>
+        <br>
+        <h3>Me chamo</h3>
+        <h1>Francisco Gomes</h1>
+        <h3>E sou <span id="text"></span></h3>
+        <div class="icons">
+          <i class='bx bxl-html5' style="color: white;"></i>
+          <i class='bx bxl-css3' style="color: white;"></i>
+          <i class='bx bxl-javascript' style="color: white;"></i>
+          <i class='bx bxl-react' style="color: white;"></i>
+          <i class='bx bxl-git' style="color: white;"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./imagens/foto.png" alt="">
+    </div>
+    <div class="about-text">
+      <h2>Sobre mim</h2>
+      <p>Sou um profissional com abordagem proativa e orientada para resultados, buscando constantemente oportunidades para crescer e contribuir de forma significativa para o sucesso da equipe e da organização. Minha capacidade de adaptabilidade e minha natureza colaborativa me permitem prosperar em ambientes dinâmicos e colaborativos. Sou motivado, confiável e estou pronto para enfrentar novos desafios com entusiasmo e determinação.
+      </p>
+      <p>Tenho familiaridade com metodologias ágeis como Scrum e Kanban, além de desenvolvimento front-end com React. Possuo conhecimento sólido de JavaScript, HTML e CSS, que são fundamentais para a criação de interfaces de usuário modernas e eficientes. Minhas habilidades de comunicação e trabalho em equipe são pontos fortes, permitindo-me colaborar eficazmente com colegas e stakeholders.</p>
+      <p>Adoto boas práticas de codificação para garantir a qualidade e a manutenção do código, e sou comprometido com o aprendizado contínuo, mantendo-me atualizado com as novas tecnologias e tendências. Além disso, tenho proeficiência com controle de versão de código usando Git, o que facilita a gestão de projetos e a colaboração em equipe.</p>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="portifolio" id="projetos">
+      <div class="main-text" id="projetos">
+        <h2>Últimos projetos</h2>
+
+        <div class="portifolio-conteudo">
+          <div class="row">
+            <img src="./imagens/jogo.png" alt="">
+            <div class="layer">
+              <h5>React</h5>
+              <p>Secret Word trata-se de um jogo de adivinhação de palavras feito com react. O projeto foi idealizado e feito durante o curso de react na udemy</p>
+              <div class="saber-mais">
+                <a href="https://franciscogs13.github.io/Secret-Word/" target="_blank"><i class='bx bx-link-external' style="color: white;"></i></a>
+                <a href="https://github.com/Franciscogs13/Secret-Word" target="_blank"><i class='bx bxl-github' style='color:white' target="_blank"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <img src="./imagens/miniblog.png" alt="">
+            <div class="layer">
+              <h5>React</h5>
+              <p>Mini Blog trata-se de um projeto que também foi idealizado e feito durante o curso de react da udemy, ele foi feito com react no front end e firebase no back end</p>
+              <div class="saber-mais">
+                <a href="https://franciscogs13.github.io/mini-blog/" target="_blank"><i class='bx bx-link-external' style="color: white;"></i></a>
+                <a href="https://github.com/Franciscogs13/mini-blog" target="_blank"><i class='bx bxl-github' style='color:white' target="_blank"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato" id="contato">
+    <div class="contato-text">
+      <h2>Entre em Contato</h2>
+      <div class="contato-icons">
+        <li><a href="#"><i class='bx bxs-send' style='color:#fffcfc'></i>franciscogomessilva953@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/francisco-dev/" target="_blank" class="in"><i class='bx bxl-linkedin' style="color: white" target="_blank"></i>Linkedin</a></li>
+        <li><a href="https://github.com/Franciscogs13" class="git" target="_blank"><i class='bx bxl-github' style='color:white' target="_blank"></i>Github</a></li>
+      </div>
+    </div>
+
+    <div class="form-contato">
+      <form id="contact-form">
+        <input type="text" placeholder="nome" id="nome" required>
+        <input type="email" placeholder="seu e-mail" id="email" required>
+        <input type="text" placeholder="assunto" id="assunto" required>
+        <textarea cols="40" rows="10" placeholder="Digite sua mensagem" id="mensagem" required></textarea>
+        <button class="enviar">
+          <div class="svg-wrapper-1">
+            <div class="svg-wrapper">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"></path>
+                <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+              </svg>
+            </div>
+          </div>
+          <span>Enviar</span>
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- menu mobile -->
+  <script src="mobilemenu.js"></script>
+
+  <!-- toast -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+  <!-- email -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "ABj2myFvVP5yzaKah",
+      });
+    })();
+  </script>
+  <script src="sendemail.js"></script>
+
+  <!-- typed -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="main.js"></script>
+
+  <!-- Particles -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 160,
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "shape": {
+          "type": "circle",
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          },
+          "polygon": {
+            "nb_sides": 5
+          },
+          "image": {
+            "src": "img/github.svg",
+            "width": 100,
+            "height": 100
+          }
+        },
+        "opacity": {
+          "value": 1,
+          "random": true,
+          "anim": {
+            "enable": true,
+            "speed": 1,
+            "opacity_min": 0,
+            "sync": false
+          }
+        },
+        "size": {
+          "value": 3,
+          "random": true,
+          "anim": {
+            "enable": false,
+            "speed": 4,
+            "size_min": 0.3,
+            "sync": false
+          }
+        },
+        "line_linked": {
+          "enable": false,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.4,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 1,
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out",
+          "bounce": false,
+          "attract": {
+            "enable": false,
+            "rotateX": 600,
+            "rotateY": 600
+          }
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": true,
+            "mode": "bubble"
+          },
+          "onclick": {
+            "enable": true,
+            "mode": "repulse"
+          },
+          "resize": true
+        },
+        "modes": {
+          "grab": {
+            "distance": 400,
+            "line_linked": {
+              "opacity": 1
+            }
+          },
+          "bubble": {
+            "distance": 250,
+            "size": 0,
+            "duration": 2,
+            "opacity": 0,
+            "speed": 3
+          },
+          "repulse": {
+            "distance": 400,
+            "duration": 0.4
+          },
+          "push": {
+            "particles_nb": 4
+          },
+          "remove": {
+            "particles_nb": 2
+          }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+
+</html>

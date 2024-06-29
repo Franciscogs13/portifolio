@@ -1,0 +1,215 @@
+@media (max-width: 991px) {
+  .header {
+    padding: 20px 6%;
+  }
+  .navbar a {
+    margin-left: 20px;
+    font-size: 18px;
+  }
+  .home {
+    padding: 70px 6% 0;
+  }
+  .home-container {
+    margin-top: 150px;
+    margin-left: 30px;
+  }
+  .home-container h3 {
+    font-size: 2em;
+  }
+  .home-container h1 {
+    font-size: 2.5em;
+  }
+  .descricao {
+    top: -250px;
+  }
+  .image-container {
+    left: 450px;
+    top: -40px;
+  }
+  .about-img::before {
+    left: 100px;
+    top: 600px;
+  }
+  .about-img img {
+    left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .home {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .home-container h3 {
+    font-size: 1.5em;
+  }
+  .home-container h1 {
+    font-size: 1.8em;
+  }
+  .home-container {
+    margin-top: 120px;
+    margin-left: 0;
+    text-align: left;
+  }
+  .descricao {
+    top: -160px;
+    text-align: left;
+  }
+  .image-container {
+    left: 350px;
+    top: 45px;
+    width: 230px;
+    height: 230px;
+    margin: 0 auto;
+  }
+  .about {
+    grid-template-columns: 1fr;
+  }
+  .about-text{
+    text-align: center;
+    margin-top: 80px;
+  }
+  .about-text p{
+    text-align: center;
+  }
+  .about-img{
+    display: none;
+  }
+  .contato-text h2{
+    font-size: 4rem;
+  }
+  .contato-icons {
+    position: relative;
+    right: 80px;
+  }
+  .bxs-send{
+    position: relative;
+    top: 26px;
+    right: 23px;
+  }
+  .in,
+  .git{
+    position: relative;
+    right:23px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(35, 35, 46, 0.205);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    z-index: 1;
+  }
+  .navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: inherit; /* Mantém a mesma cor de fundo */
+    backdrop-filter: blur(10px); /* Aplica o blur */
+    z-index: -1; /* Garante que o blur fique atrás do texto */
+  }
+
+  .navbar a {
+    margin-left: 0;
+    color: white;
+  }
+  .mobile-menu {
+    display: block;
+  }
+
+  .header {
+    padding: 20px 4%;
+  }
+  .navbar a {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .home {
+    padding: 70px 4% 0;
+  }
+  .home-container {
+    margin-top: 100px;
+  }
+  .home-container h3 {
+    font-size: 1.7em;
+  }
+  .home-container h1 {
+    font-size: 1.9em;
+  }
+  .descricao {
+    padding-top:150px ;
+    top: -140px;
+  }
+  .image-container {
+    width: 200px;
+    height: 200px;
+    left: 5px;
+    top: -26px;
+    padding-bottom: 50px;
+  }
+  .about{
+    text-align: center;
+  }
+  .about-text h2 {
+    font-size: 3rem;
+  }
+  .about-text p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .main-text h2 {
+    font-size: 3rem;
+  }
+  .about-img{
+    display: none;
+  }
+  
+  .contato {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+  .contato-text h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .contato-icons {
+    position: relative;
+    right: 80px;
+  }
+  .bxs-send{
+    position: relative;
+    top: 26px;
+    right: 23px;
+  }
+  .in,
+  .git{
+    position: relative;
+    right:23px;
+  }
+
+  .form-contato form {
+    padding: 0 10px;
+  }
+  .form-contato .enviar{
+    padding-top: 20px;
+  }
+}
