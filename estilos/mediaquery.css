@@ -12,6 +12,7 @@
   .home-container {
     margin-top: 150px;
     margin-left: 30px;
+    padding-top: 80px;
   }
   .home-container h3 {
     font-size: 2em;
@@ -19,19 +20,33 @@
   .home-container h1 {
     font-size: 2.5em;
   }
+  .image-container::before{
+    width: 75%;
+    height: 75%;
+  }
+  .image-container img {
+    width: 75%;
+    height: 75%;
+  }
   .descricao {
     top: -250px;
   }
   .image-container {
     left: 450px;
-    top: -40px;
+    top: 70px;
   }
-  .about-img::before {
-    left: 100px;
-    top: 600px;
+  .about{
+    grid-template-columns: 1fr;
   }
-  .about-img img {
-    left: 100px;
+  .about-text{
+    text-align: center;
+    margin-top: 80px;
+  }
+  .about-text p{
+    text-align: center;
+  }
+  .about-img{
+    display: none;
   }
 }
 
@@ -117,6 +132,7 @@
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 1;
+    margin-right: 15px;
   }
   .navbar::before {
     content: '';
@@ -161,12 +177,26 @@
     padding-top:150px ;
     top: -140px;
   }
+  .image-container::before {
+    display: none;
+  }
   .image-container {
-    width: 200px;
-    height: 200px;
-    left: 5px;
+    width: 90%;
+    height:90%;
+    left: 50px;
     top: -26px;
     padding-bottom: 50px;
+  }
+  .image-container::before{
+    content: '';
+    animation: girar 5s linear infinite;
+  }
+  .image-container img{
+    background: linear-gradient(145deg, #2e2d2d, #212121);
+  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
   }
   .about{
     text-align: center;
