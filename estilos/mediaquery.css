@@ -132,7 +132,7 @@
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 1;
-    margin-right: 15px;
+    margin-right: -10px;
   }
   .navbar::before {
     content: '';
