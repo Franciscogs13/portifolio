@@ -21,7 +21,7 @@
   .home-container h1 {
     font-size: 2.5em;
   }
-  .image-container::before{
+  .image-container::before {
     width: 75%;
     height: 75%;
   }
@@ -36,17 +36,17 @@
     left: 450px;
     top: 70px;
   }
-  .about{
+  .about {
     grid-template-columns: 1fr;
   }
-  .about-text{
+  .about-text {
     text-align: center;
     margin-top: 80px;
   }
-  .about-text p{
+  .about-text p {
     text-align: center;
   }
-  .about-img{
+  .about-img {
     display: none;
   }
 }
@@ -84,32 +84,32 @@
   .about {
     grid-template-columns: 1fr;
   }
-  .about-text{
+  .about-text {
     text-align: center;
     margin-top: 80px;
   }
-  .about-text p{
+  .about-text p {
     text-align: center;
   }
-  .about-img{
+  .about-img {
     display: none;
   }
-  .contato-text h2{
+  .contato-text h2 {
     font-size: 4rem;
   }
   .contato-icons {
     position: relative;
     right: 80px;
   }
-  .bxs-send{
+  .bxs-send {
     position: relative;
     top: 26px;
     right: 23px;
   }
   .in,
-  .git{
+  .git {
     position: relative;
-    right:23px;
+    right: 23px;
   }
 }
 
@@ -133,7 +133,6 @@
     transform: translateX(100%);
     transition: transform 0.3s ease-in;
     z-index: 1;
-
   }
   .navbar::before {
     content: '';
@@ -176,7 +175,7 @@
     font-size: 1.9em;
   }
   .descricao {
-    padding-top:150px ;
+    padding-top: 150px;
     top: -140px;
   }
   .image-container::before {
@@ -184,23 +183,23 @@
   }
   .image-container {
     width: 90%;
-    height:90%;
+    height: 90%;
     left: 50px;
     top: -26px;
     padding-bottom: 50px;
   }
-  .image-container::before{
+  .image-container::before {
     content: '';
     animation: girar 5s linear infinite;
   }
-  .image-container img{
+  .image-container img {
     background: linear-gradient(145deg, #2e2d2d, #212121);
-  -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
-    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
-  box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
-    inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+    -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+      inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
+    box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+      inset 5px 5px 10px #212121, inset -5px -5px 10px #212121;
   }
-  .about{
+  .about {
     text-align: center;
   }
   .about-text h2 {
@@ -216,12 +215,12 @@
     font-size: 3rem;
   }
   .main-text h5{
-    margin-bottom: 0;
+    margin-top: 0.5rem;
   }
-  .about-img{
+  .about-img {
     display: none;
   }
-  
+
   .contato {
     display: grid;
     grid-template-columns: 1fr;
@@ -235,22 +234,22 @@
     position: relative;
     right: 80px;
   }
-  .bxs-send{
+  .bxs-send {
     position: relative;
     top: 26px;
     right: 23px;
   }
   .in,
-  .git{
+  .git {
     position: relative;
-    right:23px;
+    right: 23px;
   }
 
   .form-contato form {
     padding: 0 15px;
     margin-left: 7px;
   }
-  .form-contato .enviar{
+  .form-contato .enviar {
     padding-top: 20px;
   }
 }
