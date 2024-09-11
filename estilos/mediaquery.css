@@ -215,6 +215,9 @@
   .main-text h2 {
     font-size: 3rem;
   }
+  .main-text h5{
+    margin-bottom: 0;
+  }
   .about-img{
     display: none;
   }
